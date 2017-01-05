@@ -142,6 +142,10 @@ body, html{
 			font-size: 2.2em;
 			text-align: center;
 		}
+		&-title {
+			font-size: 2.2em;
+			text-align: center;
+		}
 		&-text {
 			text-align: center;
 		}
@@ -196,11 +200,46 @@ body, html{
 				}
 				.subtitle{
 					font-size:1.2em;
+					margin-bottom:15px;
 
 				}
 				.number{
 					font-size:2.2em;
+					color:peru;
+					font-weight:100;
 				}
 			}
+		}
+	}
+
+	//FOOTER
+	.footer{
+		display:flex;
+		justify-content:space-between;
+		background:#242424;
+		color:#777;
+		height:70px;
+		line-height:70px;
+		font-size: 0.8em;
+		margin-top:140px;
+		&-list{
+			list-style:none;
+			margin: 0;
+			padding: 0;
+			display:flex;
+
+			&-item{
+				margin-right:15px;
+				.link{
+					color: #777;
+					text-decoration: none;
+					&:hover{
+						color:white;
+					}
+				}
+			}
+		}
+		&-text{
+			margin:0;
 		}
 	}
