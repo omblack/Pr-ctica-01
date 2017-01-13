@@ -57,7 +57,7 @@
 	&-contentCols{
 		flex-direction: column;
 		}
-	}
+}
 	// FOOTER
 	.footer{
 		flex-direction: column;
@@ -69,6 +69,26 @@
 		&-text{
 		}
 		&-contentSocials{
+		}
+	}
+}
+
+@media (max-width: 766px) {
+	body, html{
+		font-size:15px;
+	}
+	.banner{
+		font-size:0.6em;
+	}
+}
+
+@media (max-width: 600px) {
+	// PREMIUM
+	.premium{
+		&-contentCards{
+				&-card{
+					max-width: 99%;
+				}
 		}
 	}
 }
